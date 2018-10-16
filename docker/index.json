@@ -1,34 +1,67 @@
 {
-  "title": "Docker test",
-  "description": "docker",
-  "details": {
-    "steps": [
-      {
-        "title": "Step 1",
-        "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
-      }
-    ],
-    "intro": {
-      "text": "intro.md"
+    "title": "Docker test",
+    "description": "docker",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 2",
+                "text": "step2.md"
+            },
+            {
+                "title": "Step 3",
+                "text": "step3.md"
+            },
+            {
+                "title": "Add Step Test",
+                "text": "###Test of the step feature"
+            },
+            {
+                "title": "Step",
+                "text": ""
+            },
+            {
+                "title": "Step",
+                "text": ""
+            },
+            {
+                "title": "Step",
+                "text": ""
+            },
+            {
+                "title": "step2",
+                "text": ""
+            },
+            {
+                "title": "Step4",
+                "text": ""
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
     },
-    "finish": {
-      "text": "finish.md"
+    "environment": {
+        "showdashboard": true,
+        "dashboards": [
+            {
+                "name": "Display 80",
+                "port": 80
+            },
+            {
+                "name": "Display 8080",
+                "port": 8080
+            }
+        ],
+        "uilayout": "terminal-terminal"
+    },
+    "backend": {
+        "imageid": "docker"
     }
-  },
-  "environment": {
-    "showdashboard": true,
-    "dashboards": [{"name": "Display 80", "port": 80}, {"name": "Display 8080", "port": 8080}],
-    "uilayout": "terminal-terminal"
-  },
-  "backend": {
-    "imageid": "docker"
-  }
 }
